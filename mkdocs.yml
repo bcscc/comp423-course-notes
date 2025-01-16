@@ -1,11 +1,16 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
-features:
-  - navigation.sections
-  - navigation.tracking
-  - navigation.instant
-  - navigation.instant.progress
-  - navigation.expand
-  - navigation.tabs
-  - navigation.indexes
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.tabs
+    - navigation.indexes
+  plugins:
+    - search
+    - awesome-pages
